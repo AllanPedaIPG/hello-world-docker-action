@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: AllanPedaIPG/hello-world-docker-action:v1
+        uses: AllanPedaIPG/hello-world-docker-action@v1
         with:
           who-to-greet: 'Allan at interpublic.com'
       # Use the output from the `hello` step
