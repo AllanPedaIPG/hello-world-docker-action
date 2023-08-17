@@ -3,6 +3,9 @@
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action
 
+# Variables and Commands
+https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions
+
 ## Inputs
 
 ## `who-to-greet`
