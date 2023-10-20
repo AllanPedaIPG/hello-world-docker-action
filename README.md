@@ -1,5 +1,15 @@
 # Hello world docker action
 
+## Step 1, create a minimal Dockerfile
+
+## Step 2, Creating an action metadata file (action.yml)
+
+## Step 3, create the code called by the acton file (the entrypoint)
+
+## Step 4, This file must be executable, check with `git ls-files --stage entrypoint.sh`
+
+
+
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action
 
