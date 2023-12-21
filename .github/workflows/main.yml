@@ -1,5 +1,9 @@
 on: [push]
 
+# the next three lines are optional
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions
+on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
