@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello again
     steps:
+      - run: echo "Job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "Job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "Branch name is ${{ github.ref }} and the repository is ${{ github.repository }}."
       - name: Hello world action step
         id: hello
         uses: AllanPedaIPG/hello-world-docker-action@v1
