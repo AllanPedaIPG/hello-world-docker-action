@@ -1,4 +1,9 @@
 # action.yml
+
+# The action is called by other repositories
+# by the steps spelled out within their repo (.github/workflow/main.yml)
+# They are in other repos that call this repo
+# the actual yaml name is immaterial
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
